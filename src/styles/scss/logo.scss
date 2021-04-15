@@ -1,0 +1,18 @@
+.logo {
+    width: 20%;
+    display: flex;
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #F7F7F7;
+        margin-left: 6.25%;
+    }
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+}

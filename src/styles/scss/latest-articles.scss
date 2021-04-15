@@ -1,0 +1,24 @@
+.latest-articles {
+    text-align: center;
+    margin-top: -79px;
+    padding-top: 122px;
+    background: #CCCCCC;
+    &__title {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        color: #333333;
+    }
+    &__subtitle {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 74px;
+        text-align: center;
+        color: #666666;
+    }
+}

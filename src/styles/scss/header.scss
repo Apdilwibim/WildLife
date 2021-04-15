@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-top: 19px;
+    background-color: transparent;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1230px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+

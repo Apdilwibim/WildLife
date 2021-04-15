@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,a,ul,p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import 'fonts.scss';
+@import 'animation.scss';
+
+@import 'header.scss';
+@import 'logo.scss';
+@import 'navbar.scss';
+@import 'survival.scss';
+@import 'latest-articles.scss';
+@import 'carousel.scss';
+@import 'notified.scss';
+@import 'form.scss';
+@import 'footer.scss';
+

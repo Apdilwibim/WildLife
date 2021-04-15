@@ -1,0 +1,53 @@
+.form {
+    position: relative;
+    width: 55.0833%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    &__email {
+        display: block;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 14px;
+        width: 99%;
+        height: 60px;
+        border-top: 1px solid #666666;
+        border-left: 1px solid #666666;
+        border-bottom: 1px solid #666666;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        color: #666666;
+    }
+    &__submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        border: none;
+        outline: none;
+        width: 18.1543%;
+        height: 60px;
+        background: #CD6326;
+        border: 1px solid #CD6326;
+        border-radius: 0px 5px 5px 0px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        text-align: center;
+        color: #F7F7F7;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+            background: #E39128;
+        }
+        &:active {
+            background: #8F5613;
+        }
+    }
+}

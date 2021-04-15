@@ -1,0 +1,14 @@
+.notified {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background: #CCCCCC;
+    &__title {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 40px;
+        text-align: center;
+        color: #333333;
+    }
+}
